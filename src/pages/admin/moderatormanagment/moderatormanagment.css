@@ -1,0 +1,26 @@
+.moderatormanagmentContainer{
+  display: flex;
+  width: 100%;
+}
+
+.moderatorTable{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.moderatorTable thead tr{
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.moderatorTable th, .moderatorTable td {
+  padding: 12px 15px;
+}
+
+.moderatorTable tbody tr {
+  border-bottom: 1px solid #dddddd;
+}

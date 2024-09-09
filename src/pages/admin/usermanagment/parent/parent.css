@@ -1,0 +1,26 @@
+.parentmanagmentContainer{
+  display: flex;
+  width: 100%;
+}
+
+.parentTable{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.parentTable thead tr{
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.parentTable th, .parentTable td {
+  padding: 12px 15px;
+}
+
+.parentTable tbody tr {
+  border-bottom: 1px solid #dddddd;
+}

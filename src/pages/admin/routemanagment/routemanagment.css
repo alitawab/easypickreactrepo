@@ -1,0 +1,27 @@
+.routeManagmentContainer{
+  display: flex;
+  width: 100%;
+}
+
+.routeTable{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.routeTable thead tr{
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.routeTable th, .routeTable td {
+  padding: 12px 15px;
+}
+
+.routeTable tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
